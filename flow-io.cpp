@@ -42,10 +42,6 @@ int main(int argc, char *argv[])
         cout << c;
     }
     
-
-
-
-    
     system("pause");
 
     return 0;
