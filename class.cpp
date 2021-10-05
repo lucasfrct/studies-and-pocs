@@ -53,8 +53,7 @@ Conta *novaConta(int numero)
     return c;
 }
 
-int
-main(int argc, char const *argv[])
+int main(int argc, char const *argv[])
 {
 
     Person p1;
