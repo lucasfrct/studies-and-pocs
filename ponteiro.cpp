@@ -24,7 +24,7 @@ int my_strlen(char *str)
     return length;
 }
 
-char *my_strcat(char *dust, char *orig) // fun~ao que retorna um ponteiro
+char *my_strcat(char *dust, char *orig) // funcao que retorna um ponteiro
 {
     char *result;
     int len_dust = my_strlen(dust);
