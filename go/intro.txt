@@ -1,0 +1,85 @@
+Founders: Robert Griesemer, Rob Pike, Ken Thompson
+Go: lingugagem de progração compilada, concorrente, forte e estaticamente tipada
+    1. compilada (goroutines)
+    2. garbage-collected
+    3. próprio runtime
+    4. sintaxe simples
+    5. pacote padrão completo
+    6. multiplataform
+    7. OOP (sem herança)
+    8. estaticamente e fortemente tipada
+    9. concorrente
+    10. suporte a closures
+    11. Dependencias explicitas
+    12. Funcões com multiplos retornos
+    13. Ponteiros
+
+Não tem tratamento de erro
+Não tem herança
+Não tem generics
+Nào tem assertions
+Não tem sobrecarga de métodos
+
+ferramentas go
+    1. build        (compilar pacotes)
+    2. run          (compilar go)
+    3. clean        (remove arquivos extras da compilação)
+    4. env          (imprime informações do ambiente)
+    5. test         (tests e benchmarks em GO)
+    6. fix
+    7. fmt
+    8. get 
+    9. install 
+    10. list 
+    11. tool
+    12. version 
+    13 vet
+
+
+Execução
+    go run file.go
+    go build file.go (compila)
+
+    o programa inicia apartir do pacote (função) main
+    "var" para variaveis
+    declaração curta ":=" no lugar de iniciar com var
+    função é "func"
+    só existe um tipo de laço: "for"
+    
+    concorrencia é feita com "go"
+        a goroutine criará os processos
+        variável de ambiente GOMAXPROCS (quantidades máxima de processos)
+        a goroutine decide se será uma nova thread ou um novo processo
+    
+    Channels (canais para acessar uma goroutine)
+        há dois tipos de channels: unbuffered | buffered
+        o channel buffered envia e recebe dados entre duas goroutines
+        quando uma go routine se conecta ela prende a execucao ate haver dados de resposta
+    
+    slice é uma estrutura de dados com tamanho vairado (tipo array)
+        slice := make([]int, length)
+        slice é uma aray sem declarar tamanho
+
+    maps ou hashtable são dicionários de dados (arrays)
+    [...] = operador ellipsis
+    make() criar valores para serrem passados por referencia
+    break é para sair do loop infinito
+    lokkup s:= struct["key"] = feito em mapas
+    duck typing (semantica entre dados)
+    Rune = caracteres literais são do tipo rune (32bits ou int32)
+    closure = funcao que manipula o contento em que foi criada
+    goroutine é leve semelhante a uma thread
+    select (controla goroutines) semelhante ao switch
+
+temas
+    -- Ponteiros
+    -- struct
+    -- matrix
+    -- slice
+    -- range
+    -- map 
+    -- funcao de valor 
+    -- closures
+    -- interfaces
+    -- stringer
+    -- error

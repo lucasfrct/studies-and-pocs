@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<atom>
+    <mass rate-error="2" >10.5</mass>
+    <number scale="metrs">10</number>
+    <category type="isotope" number="2">category</category>
+    <eletrons>10</eletrons>
+    <protons>10</protons>
+    <neutrons>10</neutrons>
+    <family>metal</family>
+</atom>

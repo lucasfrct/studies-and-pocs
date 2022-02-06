@@ -1,0 +1,14 @@
+{
+    "atom": {
+        "mass": 10.5,
+        "number": 10,
+        "category": { 
+            "type":"isotope",
+            "number": 2
+        },
+        "eletrons": 10,
+        "protons": 10,
+        "neutrons": 10,
+        "family": "metal"
+    }
+}
